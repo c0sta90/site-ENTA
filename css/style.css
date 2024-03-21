@@ -107,6 +107,7 @@ body{
     text-decoration: underline;
 }
 .cursos .curso{
+    cursor: pointer;
     text-align: center;
     align-items: center;
     background-color: white;
