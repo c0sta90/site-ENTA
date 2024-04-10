@@ -1,0 +1,50 @@
+.mapa {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.mapa iframe{
+    width: 350%;
+    height: 750px;
+    position: absolute;
+    top: 320px;
+    left: 269%;
+}
+
+.mapa h1{
+    position: relative;
+    top: 271px;
+    left: 490%;
+    font-size: 20px;
+    color: #000000;
+}
+
+#rodape2 {
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 45px;
+    height: 55;
+}
+
+#rodape2 img{
+    width: 15%;
+}
+
+.info{
+    position: absolute;
+    top: 220px;
+    text-align: center;
+    align-items: center;
+    padding: 15;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000;
+}

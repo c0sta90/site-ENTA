@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
 #sobre {
     position: absolute;
     align-items: center;
@@ -15,7 +19,7 @@
 
 #sobre h2 {
     color: #333;
-    font-size: 40px;
+    font-size: 75px;
     margin-bottom: 20px;
     margin: 0 auto;
     display: flex;
@@ -26,15 +30,42 @@
 #sobre li {
     margin: 20px;
     padding-left: 20px;
+    padding-top: 25px;
+    list-style-type: none;
 } 
 
 #sobre h3 {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 35px;
 }
-    
+
+#sobre img{
+    width: 65%;
+    height: auto;
+    padding: 45px;
+
+}
+
+#rodape1 {
+    position: absolute;
+    bottom: -850;
+    width: 98%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 45px;
+    height: 55;
+}
+
+#rodape1 img{
+    width: 15%;
+}
